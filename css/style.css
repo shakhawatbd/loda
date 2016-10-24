@@ -1,0 +1,185 @@
+/* Base CSS */
+body {
+    background-color: #fff;
+    border-top: 25px solid #EDEDED;
+    
+    color : #AAAAAA;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #000000;
+    background-color: #FFF197;
+    font-size: 45px;
+}
+h3 {
+   color: #000000;
+   font-size: 30px;
+}
+h5 {
+    color: #000000;
+}
+p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: }
+
+.blue-dot {
+    color: #072DEF;
+}
+
+/*header top section start*/
+.header-top h3 {
+    color: #000000;
+    background-color: #FFF197;
+    width: 66px;
+    margin-left: 40px;
+    margin-top: 0px;  
+}
+.header-top {
+    background-color: #FCFCFC;
+    padding-top: 35px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+}
+.header-top ul {
+    margin-right: -110px;
+}
+.header-top ul li {
+    padding-right: 45px;
+}
+.header-top ul li a {
+    color: #898989;
+}
+.header-top ul li a:hover {
+    color: #072DEF;
+}
+/*header top section end*/
+
+/*howdy section start*/
+.how {
+    color : #072DEF;
+}
+.howdy {
+    background-image: url(../images/hero.jpg);
+    background-color: #FCFCFC;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+    margin-top: -100px;
+
+}
+.howdy h1 {
+    color: #000000;
+    background-color: #FFF197;
+    font-size: 65px;
+}
+.howdy h4 {
+    color: #000000;
+}
+.howdy-arrow {
+    height: 30px;
+    margin-top: 130px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.howdy-img {
+    height: 365px;
+    margin-top: -111px;
+}
+/*howdy section end*/
+
+/*intro section start*/
+.intro {
+    padding-top: 122px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+}
+.intro h2{
+    width: 470px;
+}
+.intro h3 {
+    padding-top: 40px;
+}
+.intro p {
+    padding-top: 30px;
+}
+.web {
+    padding-top: 30px;
+}
+.progress {
+    height: 4px;
+    border-radius: 0px;
+}
+.clr-blue {
+    color : #072DEF;
+}
+.progress-one {
+    padding-top: 55px;
+}
+.progress-third {
+    padding-bottom: 122px;
+}
+/*intro section end*/
+
+/*resume section start*/
+.resume {
+    padding-top: 122px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+    background-color: #FCFCFC;
+}
+.resume h2 {
+    width: 380px;
+}
+/*resume section end*/
+
+
+
+
+
+@media screen and (max-width: 480px){
+    
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    
+.howdy h1 {
+    width : 350px;
+}
+}
+
+
+
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
