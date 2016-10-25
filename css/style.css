@@ -152,11 +152,76 @@ a:hover { text-decoration: }
     border-left: 25px solid #EDEDED;
     border-right: 25px solid #EDEDED;
     background-color: #FCFCFC;
+    padding-bottom: 125px;
 }
 .resume h2 {
     width: 380px;
 }
+.dribble-top-space {
+    margin-top: 40px;
+}
+.brdr-circle {
+    border-radius: 10px;
+    background: #072DEF;
+    padding: 8px;
+    width: 15px;
+    height: 1px;
+    margin-top: 30px;
+}
+.brdr-line {
+    border-left: 2px solid #FFF197;
+    height: 160px;
+    margin-top: 46px;
+    margin-left: -9px;
+}
+.brdr-line-two {
+    border-left: 2px solid #FFF197;
+    height: 160px;
+    margin-top: 16px;
+    margin-left: -9px;
+}
+.brdr-line-three {
+    border-left: 2px solid #FFF197;
+    height: 66px;
+    margin-top: 16px;
+    margin-left: -9px;
+}
+.brdr-white-circle {
+    border: 2px solid #072DEF;
+    border-radius: 30px;
+    height: 16px;
+    width: 16px;
+    padding: 1px;
+}
+.google h3 {
+    margin-top: -9px;
+}
 /*resume section end*/
+
+/*portfolio section start*/
+.portfolio {
+    padding-top: 122px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+    padding-bottom: 125px
+}
+.portfolio h2 {
+    width: 342px;
+}
+.portfolio ul {
+    margin-right: -145px;
+    padding-top: 81px;
+}
+.portfolio ul li {
+    padding-right: 45px;
+}
+.portfolio ul li a {
+    color: #898989;
+}
+.portfolio ul li a:hover {
+    color: #072DEF;
+}
+/*portfolio section end*/
 
 
 
@@ -173,7 +238,7 @@ a:hover { text-decoration: }
 .howdy h1 {
     width : 350px;
 }
-}
+
 
 
 
