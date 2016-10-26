@@ -209,8 +209,8 @@ a:hover { text-decoration: }
     width: 342px;
 }
 .portfolio ul {
-    margin-right: -145px;
     padding-top: 81px;
+    margin-right: -45px;
 }
 .portfolio ul li {
     padding-right: 45px;
@@ -221,9 +221,55 @@ a:hover { text-decoration: }
 .portfolio ul li a:hover {
     color: #072DEF;
 }
+.img-bottom {
+    padding-bottom: 0px;
+}
 /*portfolio section end*/
 
+/*journal section start*/
+.journal {
+    padding-top: 122px;
+    background-color: #FCFCFC;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+    padding-bottom: 90px
+}
 
+.journal h2 {
+    width: 245px;
+}
+.journal ul {
+    margin-top: 60px;
+}
+
+.journal ul:hover{
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid #FFF197;
+    background: url(../images/arrow2.png) no-repeat;
+    background-position: right;
+}
+
+.journal ul li a {
+    color: #898989;
+}
+.journal ul li a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+/*journal section end*/
+
+/*contact section start*/
+.contact {
+    padding-top: 122px;
+    border-left: 25px solid #EDEDED;
+    border-right: 25px solid #EDEDED;
+    padding-bottom: 125px   
+}
+.contact h2 {
+    width :240px;
+}
+/*contact section end*/
 
 
 
